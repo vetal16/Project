@@ -137,3 +137,25 @@ button#clearbutton {
 	margin-top: 20px;
 }
 
+#txtCharacter {
+    width: 20px;
+}
+
+
+#output {
+    float: left;
+    margin-left: 15px;
+}
+
+#output span, #outputValues span {
+    display: block;
+}
+
+#bestGuess {
+    font-size: 130px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+}
+
