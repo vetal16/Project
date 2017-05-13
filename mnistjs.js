@@ -374,7 +374,7 @@ function run_network() {
 		if(layer2[0][i] > layer2[0][max_idx])
 			max_idx = i;
 	}
-	document.getElementById("guess").innerHTML = "<b>" + max_idx + "</b> (точність" + layer2[0][max_idx] + ")";
+	document.getElementById("guess").innerHTML = "<b>" + max_idx + "</b> (точність: " + layer2[0][max_idx] + ")";
 }
 
 document.addEventListener("DOMContentLoaded", init, false);
